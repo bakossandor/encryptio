@@ -9,7 +9,7 @@ Stack includes:
 |Method|Path|Query Params|Post Body|
 |---|---|---|---|
 |`GET`|`/api/information`|`id`(required), `decryption_key`(required)|none|
-|`POST`|`/api/information`|none|`{'id': <id>, 'value': <valid-json>}`|
+|`POST`|`/api/information`|none|`{'id': <id>, 'value': <valid-json>, 'encryption_key': <key>}`|
 
 ## How to set up a the project
 1. clone the repo
