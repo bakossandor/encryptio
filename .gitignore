@@ -1,4 +1,11 @@
 node_modules
+
+# intellij ide settigns
 .idea
 *.iml
+
+# dev env setting for prisma
 prisma/.env
+
+# test coverage results
+coverage
